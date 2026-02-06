@@ -1,0 +1,14 @@
+{
+    "name": "cosmic-jungle-art",
+    "version": "1.0.0",
+    "description": "Generative art inspired by Space, Rainbows, and Jungle",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx serve .",
+        "dev": "npx serve ."
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "serve": "^14.2.0"
+    }
+}
