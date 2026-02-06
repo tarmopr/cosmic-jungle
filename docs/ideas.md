@@ -22,11 +22,12 @@ Let's vibe and create some art with javascript, html and css. I wat to see some 
 Move the title box and the reset button to the top of the canvas and make it more transparent and smaller, so that it doesn't cover the canvas. Make it more minimalistic. When mouse is hovered over the title box then it should be highlighted with some neon effect and be less transparent.
 Make the titlebox even smaller, and less transparent so that it would not cover the screen in smaller devices.
 
-## Tocuch screen devices
-Make the parallax effect work with touchscreen devices like smartphones where mouse is not available.
+## Touch screen devices [COMPLETED]
+The parallax effect now works with touchscreen devices via finger tracking and automatic gyroscope detection.
+- Consolidate Input: Updated input handlers for mouse and touch.
+- Auto-Drift: Parallax "breathes" on its own when idle.
+- Automatic Detection: Gyroscope is used automatically if available.
 
-### Suggested Plan:
-1. Consolidate Input: Create a single handleInput(x, y) function that works for both mouse and touch.
-2. Add Tilt Mode: Implement a button to "Enable Gyroscope" (to handle the permission requirement).
-3. Auto-Drift Toggle: Add a fallback so the parallax "breathes" on its own when idle.
-4. Detect if devide has gyroscope and if it is enabled then use the gyroscope to move the background. Remove the tilt mode button.
+## Hosting
+- Move files to `public` folder [COMPLETED]
+- Add GitHub Pages deployment [DONE]
